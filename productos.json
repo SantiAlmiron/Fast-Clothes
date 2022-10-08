@@ -1,0 +1,6 @@
+[
+    {"id": 1, "marca": "Nike", "modelo": "Jordan", "precio": 5000, "img": "img/jordan.jpg" },
+    {"id": 2, "marca": "Adidas", "modelo": "Forum Low", "precio": 4900, "img": "img/adidasch.jpg" },
+    {"id": 3, "marca": "Nike", "modelo": "SB", "precio": 2000, "img": "img/remeranike.jpg" },
+    {"id": 4, "marca": "Adidas", "modelo": "Originals", "precio": 1900, "img": "img/remeraadidas.jpg" }
+]

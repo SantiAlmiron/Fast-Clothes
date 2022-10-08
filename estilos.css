@@ -1,0 +1,67 @@
+.Header{
+    background-color: wheat;
+}
+
+.Header__logo{
+    height: 4rem;
+}
+
+.body{
+    background-color: rgb(9, 8, 8);
+}
+.productos{
+    padding: 3rem;
+    gap: 3rem;
+    display: flex;
+}
+.btnCarrito{
+    background-image: url(./img/caarito2.jpg);
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 2rem;
+}
+.btnCarrito:hover{
+    transform: scale(1.2);
+}
+
+.imgEliminar{
+    height: 2rem;
+    width: 2rem;
+}
+
+.imgAñadirCarrito{
+    height: 3rem;
+    width: 3rem;
+}
+.imgAñadirCarrito:hover{
+    transform: scale(1.2);
+}
+
+.productoEnCarrito{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.precioTotal{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.card{
+    text-align: center;
+    background-color: wheat;
+}
+
+.vaciarCarrito{
+    width: 8rem;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
