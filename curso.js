@@ -64,7 +64,7 @@ boton.addEventListener(`click`, ()=>{
 }})
 
 const agregarAlCarrito = (ProdId) =>{
-  const item = Productos.find((Prod) => Prod.id === ProdId)
+  const item = stockProductos.find((Prod) => Prod.id === ProdId)
   carrito.push(item)
   actualizarCarrito()
   console.log(carrito)
