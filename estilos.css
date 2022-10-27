@@ -1,19 +1,68 @@
 .Header{
     background-color: wheat;
+    margin-bottom: 2rem;
 }
 
 .Header__logo{
     height: 4rem;
 }
 
+.Header__título{
+font-family: 'Permanent Marker', cursive;
+}
+
+.contadorCarrito{
+    margin-right: 0.8rem;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.5rem;
+    color: rgb(225, 36, 77);
+}
+
+.Home{
+    padding: 2rem;
+    text-align: center;
+}
+
+.Home__titulo{
+    font-size: 2.8rem;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 2rem;
+
+}
+
+.Home__subtitulo{
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+.Menu{
+    padding-left: 4rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .body{
     background-color: rgb(9, 8, 8);
 }
 .productos{
-    padding: 3rem;
-    gap: 3rem;
-    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 12rem;
+    
 }
+
+.btn2{
+    height: 4rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+
 .btnCarrito{
     background-image: url(./img/caarito2.jpg);
     width: 4rem;
@@ -53,6 +102,13 @@
 .card{
     text-align: center;
     background-color: wheat;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .vaciarCarrito{
@@ -60,7 +116,38 @@
     margin-left: 1rem;
 }
 
+.Nosotros{
+    padding: 2rem;
+}
 
+.titulo_form{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.form{
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.Footer{
+    background-color: wheat;
+    padding: 1.3rem;
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+}
+
+.Footer__desc{
+    margin-right: 1.5rem;
+}
+
+.Footer__desc2{
+    color: black;
+}
 
 
 
