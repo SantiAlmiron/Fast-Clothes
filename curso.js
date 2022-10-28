@@ -32,8 +32,6 @@ botonVaciar.addEventListener(`click`, () => {
   })
 })
 
-
-//Operador ternario
 botonFinalizar.addEventListener(`click`, () => {
   
   (carrito.length === 0) ?   swal.fire({
@@ -117,13 +115,6 @@ const agregarAlCarrito = (ProdId) =>{
 }actualizarCarrito()
 }
 
-//const eliminarDelCarrito = (prodId) =>{
-//  const item = carrito.find((Prod) => Prod.Id === prodId)
-//  const indice = carrito.indexOf(item)
-//  carrito.splice(indice, 1)
-//  actualizarCarrito()
-//}
-
 const actualizarCarrito = () =>{
   contenedorCarrito.innerHTML = ""
 
@@ -160,8 +151,6 @@ const actualizarCarrito = () =>{
     )
   
   precioTotal.innerText = carrito.reduce((acc, prod)=> acc + prod.precio, 0)
-  
-
 }
 
 
